@@ -88,6 +88,8 @@ pip freeze > requirements.txt
 ```
 
 A `requirements.txt` file is simply a list of the modules and packages that your project needs to run. when you recieve a requirements.txt from others (this will be important as you will be working in groups) you can add those requirements to your virtual environment with a `pip install`
+
+**Note**: You do not need to run this command for this lab.
 ```
 pip install -r requirements.txt
 ```
