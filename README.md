@@ -80,7 +80,7 @@ git add .
 git commit -m "your message here"
 git push
 ```
-**NOTE**: The first time you push, you might have to authenticate by signing into Github. You will also need to run the following commands to push your new local branch to your remote repository. You'll have to run these every time you make a new branch to create and push to the upstream branch.
+**NOTE**: The first time you push, you might have to authenticate by signing into Github. You will also need to run the following command to push your new local branch to your remote repository. You'll have to run this every time you make a new branch to create and push to the upstream branch.
 ```bash
 git push --set-upstream origin <branch name>
 ```
