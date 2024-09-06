@@ -45,7 +45,7 @@ python3 -m pip install --user virtualenv
 **IMPORTANT:** You need to be in the Lab-2 directory because that is where we want to virtual environment to be created. In your terminal, navigate to your Lab-2 directory using the `cd` command. You can issue the `pwd` command to verify you're in the right directory.
 ```bash
 # change directory
-cd Lab-2
+cd lab-2
 # confirm directory
 pwd
 ```
@@ -87,7 +87,7 @@ pip install click
 
 Then issue a `pip list` and make sure you see your newly installed packages in the list. 
 
-To share your virtual environment (and submit this lab for a grade), make sure you are still in the `Lab-2` directory and issue a `pip freeze`. If you are not in the right directory, you will export all of your installed packages, not just the ones in your virtual environment.
+To share your virtual environment (and submit this lab for a grade), make sure you are still in the `lab-2` directory and issue a `pip freeze`. If you are not in the right directory, you will export all of your installed packages, not just the ones in your virtual environment.
 ```bash
 # store venv configurations
 pip freeze > requirements.txt
