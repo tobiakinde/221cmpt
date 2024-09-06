@@ -74,10 +74,14 @@ git checkout -b "lab-x"
 ```
 
 ### Step 2: Complete the lab & push to Github
-Work on your lab in the newly created branch. When you're ready to commit and push your changes, write up a somewhat detailed and/or entertaining commit message explaining what you're committing. Please don't push your changes at once. Instead, complete a section of the lab, then push those changes. You should have multiple commits for each lab.
+Work on your lab in the newly created branch. When you're ready to commit and push your changes, **save your file(s)**, then write up a somewhat detailed and/or entertaining commit message explaining what you're committing. Please don't push your changes at once. Instead, complete a section of the lab, then push those changes. You should have multiple commits for each lab.
 ```bash
+# important: save your file first!!!
+# add changes to staging area
 git add . 
+# commit changes to local repo
 git commit -m "your message here"
+# push changes to remote repo (Github)
 git push
 ```
 **NOTE**: The first time you push, you might have to authenticate by signing into Github. You will also need to run the following command to push your new local branch to your remote repository. You'll have to run this every time you make a new branch to create and push to the upstream branch.
