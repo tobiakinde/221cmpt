@@ -28,9 +28,15 @@ Open the application and follow the set-up instructions. You'll have to set a pa
 
 3. Name the database `marist` and leave the owner as `postgres`. Click `Save`
 
-Now that you have a database, you have to connect it to your code. We'll be using `Flask` and `SQLAlchemy` to connect our database.
+Now that you have a database, you have to connect it to your code. We'll be using `Flask` and `SQLAlchemy` to connect our database. 
 
-First things first, you need a virtual environment to install your dependences (package requirements). Create a virtual environment in the `lab-3` directory using the same steps you followed in lab 2.
+`Flask` is a micro web framework. A web framework enables developers to write web applications without having to worry about low-level things (such as protocols). Flask is considered a micro web framework because it doesn't require specific tools and libraries, and doesn't have the features a typical web framework (like django) would have. However, flask supports extensions, like SQLAlchemy, that can add some of the features that other web frameworks provide inherently.
+
+`SQLAlchemy` is a database toolkit for python. As an object relational mapper (ORM), SQLAlchemy converts python objects into database objects. It also enables developers to insert, manipulate, and delete data in a database by executing SQL from python modules and scripts.
+
+Flask and SQLAlchemy are both python packages that need to be installed with `pip`.
+
+First things first, though... you need a virtual environment. Create a virtual environment in the `lab-3` directory using the same steps you followed in lab 2:
 
 Navigate to your lab-3 directory using the `cd` command
 ```bash
@@ -63,7 +69,7 @@ You'll know your virtual environment is activated when you see `(.venv)` in your
 (.venv) calistaphippen@calistas-mac lab-3 %
 ```
 
-I've gone ahead and provided you with the requirements.txt file for this lab. All you need is to run a `pip install`, and all the packages you need for the code in this lab to run.
+I've gone ahead and provided you with the requirements.txt file for this lab. All you need is to run a `pip install`, and all the python packages you need (flask, sqlalchemy, psycopg2, dotenv) will be installed.
 
 ```bash
 pip install -r requirements.txt
