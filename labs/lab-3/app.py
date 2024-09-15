@@ -1,4 +1,4 @@
-"""Render and route to webpages"""
+"""app.py: render and route to webpages"""
 from db.db import *
 
 # create a webpage based off of the html in templates/index.html
