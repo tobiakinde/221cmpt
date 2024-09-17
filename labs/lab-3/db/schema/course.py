@@ -15,6 +15,7 @@ class Course(db.Model):
     def __init__(self, name):
         self.CourseName = self.CourseName
         self.Semester = self.Semester
+        self.Year = self.Year
 
     def __repr__(self):
         return f"""
@@ -25,3 +26,4 @@ class Course(db.Model):
     
     def __repr__(self):
         return self.__repr__()
+    
