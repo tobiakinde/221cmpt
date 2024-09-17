@@ -3,7 +3,7 @@ from db.db import db
 
 class Professor(db.Model):
     __tablename__ = 'Professors'
-    ProfessorID = db.Column(db.Integer,primary_key=True)
+    ProfessorID = db.Column(db.Integer,primary_key=True, autoincrement=True)
 
     # create relationship with courses table. assoc table name = ProfessorCourse
     course = db.relationship('Courses', secondary = 'ProfessorCourse', back_populates = 'Professors')

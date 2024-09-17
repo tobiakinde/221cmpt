@@ -4,7 +4,7 @@ from db.db import db
 class Course(db.Model):
     __tablename__ = 'Courses'
     # db.<data type> is the data type of the value in the column
-    CourseID = db.Column(db.Integer,primary_key=True)
+    CourseID = db.Column(db.Integer,primary_key=True,autoincrement=True)
     # 40 = max length of string
     CourseName = db.Column(db.String(40))
     Semester = db.Column(db.String(40))
