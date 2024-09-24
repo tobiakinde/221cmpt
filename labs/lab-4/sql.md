@@ -37,7 +37,7 @@ then create and activate your virtual environment using the commands you used in
 (.venv) calistaphippen@calistas-mac lab-4 %
 ```
 
-Then, install the lab requirements.txt (same as lab 3)
+Then, install the lab requirements.txt
 
 ```bash
 pip install -r requirements.txt
