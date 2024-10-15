@@ -35,7 +35,7 @@
 
 ### Lab 
 Create a login form that requires a user's email and password.
-* if the password matches, the user needs to be routed somewhere (I don't care where)
+* if the password matches, the user needs to be routed somewhere (Anywhere but the login page)
 * if the password doesn't match, route the user to the login page (We will cover validation in the next lab)
 
 Keep in mind that:
@@ -61,6 +61,8 @@ _**Note:** Don't forget to refresh your web broswer to apply HTML/CSS changes._
 
 **Helpful References:**
 * Flask forms: https://testdriven.io/courses/learn-flask/forms/
+* SQLAlchemy insert, update, & delete functions: https://docs.sqlalchemy.org/en/20/core/dml.html
+* SQLAlchemy select functions: https://docs.sqlalchemy.org/en/20/orm/queryguide/select.html
 * Week 3 & 8 slide decks
 * Class sign in example
 
