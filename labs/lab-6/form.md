@@ -72,8 +72,8 @@ Once you have completed this lab, push your work to Github, then open a pull req
 
 ```bash
 git add .
-git commit -m "completed lab 5"
-git push --set-upstream origin lab-5
+git commit -m "completed lab 6"
+git push --set-upstream origin lab-6
 # or
 git push
 ```
