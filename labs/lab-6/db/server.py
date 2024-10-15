@@ -24,7 +24,6 @@ db = SQLAlchemy(app)
 # this import is here because we need to initialize db before importing it into
 # the classes
 from db.schema.user import User
-from db.schema.user2 import User2
 
 # verify the db connection is successful
 with app.app_context():

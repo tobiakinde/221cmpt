@@ -35,13 +35,13 @@
 
 ### Lab 
 Create a login form that requires a user's email and password.
+* if the password matches, the user needs to be routed somewhere (I don't care where)
+* if the password doesn't match, route the user to the login page (We will cover validation in the next lab)
 
 Keep in mind that:
 * webpages are defined in app.py (use index.html as an example)
 * you need to pull the user's email and password from the database
 * you need to compare the user's email and password from the databse to the input values
-* if the password is incorrect, fail gracefully
-* after hitting submit, the user needs to be routed somewhere (I dont care where)
 
 To view the HTML, run the `app.py` script.
 
